@@ -4,7 +4,7 @@ A robust, low-latency digital chess clock built on the Arduino framework. This p
 🚀 Overview
 Most DIY chess clocks suffer from "drift" or "input lag." This project focuses on high-accuracy timing and debounced hardware interrupts to ensure that every millisecond is accounted for during competitive play.
 
-Key Features
+Key Features: 
 Dual-State Logic: Seamlessly toggles between two independent countdown timers.
 
 Interrupt-Driven Input: Uses hardware interrupts for player buttons to ensure zero missed presses, even during rapid "blitz" play.
@@ -19,3 +19,12 @@ Language: Arduino
 Logic Pattern: Finite State Machine (FSM)
 
 Hardware Components: 16x2 LCD (I2C), Momentary Tactile Switches, Arduino UNO Board, breadboard.
+
+📥 Installation & Usage
+Clone the repo: git clone https://github.com/shaikhomarabdulmajid-spec/arduino-chess-clock.git
+
+Open in Arduino IDE.
+
+Install Library: LiquidCrystal_I2C via the Library Manager.
+
+Upload to your board and start playing!
