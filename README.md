@@ -1,4 +1,21 @@
-This is code for an Arduino Chess Clock with a button for Player A, Player B, and for resetting the time. This was made because my school had no chess clocks, and they weren't willing to buy one, or even
-fund buying one, so I had to improvise. Though the wires look a bit messy, the functionality of the clock remains the same.
+♟️ Precision Arduino Chess Clock
+A robust, low-latency digital chess clock built on the Arduino framework. This project implements a state-machine architecture to handle dual-timer precision, interrupt-driven input, and real-time display updates.
 
-My inspiration for building this clock was for the chess tournament hosted in school.
+🚀 Overview
+Most DIY chess clocks suffer from "drift" or "input lag." This project focuses on high-accuracy timing and debounced hardware interrupts to ensure that every millisecond is accounted for during competitive play.
+
+Key Features
+Dual-State Logic: Seamlessly toggles between two independent countdown timers.
+
+Interrupt-Driven Input: Uses hardware interrupts for player buttons to ensure zero missed presses, even during rapid "blitz" play.
+
+Safety Reset: A dedicated global reset button to re-initialize game states.
+
+🛠️ Technical Stack & Architecture
+Microcontroller: Arduino (Uno/Nano)
+
+Language: Arduino
+
+Logic Pattern: Finite State Machine (FSM)
+
+Hardware Components: 16x2 LCD (I2C), Momentary Tactile Switches, Arduino UNO Board, breadboard.
