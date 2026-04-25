@@ -5,10 +5,10 @@
 
 <br/>
 
-♟️ Precision Arduino Chess Clock
+<h3>♟️ Precision Arduino Chess Clock </h3>
 A robust, low-latency digital chess clock built on the Arduino framework. This project implements a state-machine architecture to handle dual-timer precision, interrupt-driven input, and real-time display updates.
 
-🚀 Overview
+<h3>🚀 Overview</h3>
 Most DIY chess clocks suffer from "drift" or "input lag." This project focuses on high-accuracy timing and debounced hardware interrupts to ensure that every millisecond is accounted for during competitive play.
 
 Key Features: 
@@ -19,13 +19,13 @@ Interrupt-Driven Input: Uses hardware interrupts for player buttons to ensure ze
 Safety Reset: A dedicated global reset button to re-initialize game states.
 
 🛠️ Technical Stack & Architecture
-Microcontroller: Arduino (Uno/Nano)
+Microcontroller: Arduino UNO R3
 
 Language: Arduino
 
 Logic Pattern: Finite State Machine (FSM)
 
-Hardware Components: 16x2 LCD (I2C), Momentary Tactile Switches, Arduino UNO Board, breadboard.
+Hardware Components: 16x2 LCD (I2C), Momentary Tactile Switches, Arduino UNO Board, breadboard, and wires (that's all!).
 
 📥 Installation & Usage
 Clone the repo: git clone https://github.com/shaikhomarabdulmajid-spec/arduino-chess-clock.git
