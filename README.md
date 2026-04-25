@@ -2,6 +2,9 @@
 
 
 
+
+<br/>
+
 ♟️ Precision Arduino Chess Clock
 A robust, low-latency digital chess clock built on the Arduino framework. This project implements a state-machine architecture to handle dual-timer precision, interrupt-driven input, and real-time display updates.
 
