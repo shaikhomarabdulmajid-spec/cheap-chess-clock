@@ -11,22 +11,21 @@ A robust, low-latency digital chess clock built on the Arduino framework. This p
 ## 🚀 Overview
 Most DIY chess clocks suffer from "drift" or "input lag." This project focuses on high-accuracy timing and debounced hardware interrupts to ensure that every millisecond is accounted for during competitive play.
 
-## Key Features: 
-Dual-State Logic: Seamlessly toggles between two independent countdown timers.
+## 🔑 Key Features 
+<strong>Dual-State Logic</strong>: Seamlessly toggles between two independent countdown timers.
 
-Interrupt-Driven Input: Uses hardware interrupts for player buttons to ensure zero missed presses, even during blitz plays.
+<strong>Interrupt-Driven Input</strong>: Uses hardware interrupts for player buttons to ensure zero missed presses, even during blitz plays.
 
-Safety Reset: A dedicated global reset button to re-initialize game states.
+<strong>Safety Reset</strong>: A dedicated global reset button to re-initialize game states.
+<strong>Logic Pattern</strong>: : Finite State Machine (FSM)
 
 ## 🛠️ Technical Stack & Architecture
-Microcontroller: Arduino UNO R3
+<strong>Microcontroller</strong>: Arduino UNO R3 <br />
+<strong>Additional components</strong>: 16x2 LCD (I2C) Screen, tactile switches, breadboard (and don't forget the wires!).
 
 ## ⚔️Challenges Faced
-At first the buttons didn't work when pressed. I then wrote some code to test the input received by the board from the buttons. I thought that maybe there was a problem with the buttons, but then I quickly came to realise that I made a mistake in the wiring, which caused no change in voltage when the buttons are pressed. After a couple minutes of re-wiring, the buttons seemed to work perfectly.
+At first the buttons didn't work when pressed. I then wrote some code to test the input received by the board from the buttons. I thought that maybe there was a problem with the buttons, but then it quickly became clear that the wiring was incorrect, which caused no change in voltage when the buttons are pressed. After a couple minutes of re-wiring, the buttons seemed to work perfectly.
 
-Logic Pattern: Finite State Machine (FSM)
-
-Hardware Components: 16x2 LCD (I2C), Momentary Tactile Switches, Arduino UNO Board, breadboard, and wires (that's all!).
 
 ## 📥 Installation & Usage
 Clone the repo: git clone https://github.com/shaikhomarabdulmajid-spec/arduino-chess-clock.git
