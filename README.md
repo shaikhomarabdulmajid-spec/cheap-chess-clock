@@ -1,4 +1,5 @@
 <img width="1016" height="721" alt="image" src="https://github.com/user-attachments/assets/aebd79f3-b985-4c24-8dd8-bb647675f4cc" />
+(Arduino Chess Clock wiring)
 
 
 
